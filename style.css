@@ -1,0 +1,67 @@
+/* #child1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+#clock{
+     position: relative;
+    width: 500px;
+    height: 500px;
+    background-image:url('clock.jpg') ;
+     background-repeat: no-repeat;
+     background-image: center;
+      display: flex;
+    justify-content: center;
+   
+    align-items: center;
+   
+   
+
+
+}
+
+#hour{
+    position: absolute;
+    width: 210px;
+}
+#minute{
+    position: absolute;
+    width: 240px;
+}
+#second{
+    position: absolute;
+    width: 330px;
+} */
+ #child1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#clock{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    background-image: url('clock.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hour{
+    position: absolute;
+    width: 210px;
+}
+
+#minute{
+    position: absolute;
+    width: 240px;
+}
+
+#second{
+    position: absolute;
+    width: 330px;
+}
